@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondolog"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="upc.com.lavanderiaproyec.MainActivity">
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/AppTheme.NoActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:text="Lavanderia"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/cast_intro_overlay_focus_radius"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/cast_libraries_material_featurehighlight_center_threshold"
+        android:layout_height="@dimen/mr_controller_volume_group_list_max_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="21dp"
+        app:srcCompat="@drawable/logoburbu" />
+
+    <Button
+        android:id="@+id/btniniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorPrimary"
+        android:text="Iniciar"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        tools:ignore="HardcodedText" />
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="399dp"
+        tools:layout_editor_absoluteX="137dp"
+        android:layout_alignTop="@+id/btniniciar"
+        android:layout_toRightOf="@+id/btniniciar"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_alignBottom="@+id/btniniciar" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/AppTheme.NoActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text='La "Burbuja"'
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/cast_intro_overlay_focus_radius"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView12"
+        android:layout_toRightOf="@+id/btniniciar"
+        android:layout_toEndOf="@+id/btniniciar" />
+
+</RelativeLayout>

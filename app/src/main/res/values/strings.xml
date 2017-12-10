@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LavanderiaProyec</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Entrar.</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_menu_lateral">menuLateral</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="log_out" />
+    <string name="revoke" />
+    <string name="not_clase_session" />
+    <string name="not_revoke" />
+</resources>

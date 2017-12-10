@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="signButton" type="id" />
+    <item name="nameTextView" type="id" />
+    <item name="emailTextView" type="id" />
+    <item name="idTextView" type="id" />
+</resources>

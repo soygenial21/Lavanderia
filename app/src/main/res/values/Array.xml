@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Lavado">
+        <item>    Lavadoras </item>
+
+        <item> Lavadora Grande $50 </item>
+        <item> Lavadora Chica $25 </item>
+
+        <item>    Secadoras  </item>
+
+        <item> Secadora Grande $50 </item>
+        <item> Secadora Chica $25 </item>
+
+        <item> Productos de Limpieza </item>
+
+        <item> Jabon Liquido $10 </item>
+        <item> Suavisante $10 </item>
+        <item> Pinol $10 </item>
+        <item> Cloralex $10 </item>
+
+
+
+</string-array>
+    
+</resources>
