@@ -53,6 +53,8 @@
         android:layout_marginStart="32dp"
         tools:ignore="HardcodedText" />
     <com.google.android.gms.common.SignInButton
+
+        android:id="@+id/btSign"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteY="399dp"

@@ -26,14 +26,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         setContentView(R.layout.activity_main);
 
         try {
-            GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN)
+            GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                     .requestEmail()
                     .build();
             googleApiClient = new GoogleApiClient.Builder(this)
                     .enableAutoManage(this, this)
                     .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
                     .build();
-            signButton = (SignInButton) findViewById(R.id.signButton);
+            signButton = (SignInButton) findViewById(R.id.btSign);
 
         }catch (Exception ex)
         {
