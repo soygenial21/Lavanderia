@@ -25,6 +25,16 @@ public class cliente {
 
     }
 
+    public cliente( String nombre, String apellido, String direccion, String telefono){
+
+        this.telefono = telefono;
+        this.nombre = nombre;
+        this.apellifo = apellido;
+        this.direccion = direccion;
+
+    }
+
+
     public String getNombre() {
         return nombre;
     }

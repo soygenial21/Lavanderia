@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "693787354941",
+    "firebase_url": "https://lavanderia-b2a50.firebaseio.com",
+    "project_id": "lavanderia-b2a50",
+    "storage_bucket": "lavanderia-b2a50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693787354941:android:f25b7c07f0c82dec",
+        "android_client_info": {
+          "package_name": "upc.com.lavanderiaproyec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693787354941-26ndf1pch01tn7re9g4d78kn94dtjm4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "upc.com.lavanderiaproyec",
+            "certificate_hash": "2a2db6970c6dcdf2d41d9be106f3fd9a1bbf4092"
+          }
+        },
+        {
+          "client_id": "693787354941-lk0prmka6ck68d5g088pg6a186kbti4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAft2QpBZpI4cOhVor0wfqKHwlJMu4Ax10"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693787354941-lk0prmka6ck68d5g088pg6a186kbti4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //try {
+        try {
             GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                     .requestEmail()
                     .build();
@@ -40,16 +40,17 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                     .build();
             signButton = (SignInButton) findViewById(R.id.btSign);
 
-        //}catch (Exception ex)
-        //{
-            Toast.makeText(this, "No se puede Iniciar Sesion", Toast.LENGTH_SHORT).show();
-       // }
+        }catch (Exception ex)
+        {
+            Toast.makeText(this, "catch 1", Toast.LENGTH_SHORT).show();
+        }
 
         signButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = Auth.GoogleSignInApi.getSignInIntent(googleApiClient);
                 startActivityForResult(intent, 777);
+
             }
         });
 
@@ -77,7 +78,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
             goMainSuccess();
 
         }else {
-            Toast.makeText(this, "No se puede Iniciar Sesion", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "catch 2", Toast.LENGTH_SHORT).show();
+            goMainSuccess();
         }
     }
 
